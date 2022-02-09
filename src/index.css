@@ -1,13 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Quiz{
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    background-color: bisque;
+}
+
+.Quiz_answers{
+    margin-top: 20px;
+}
+.answer{
+    margin-bottom: 10px;
+    transition: all .4s ease;
+}
+
+.success{
+    background-color: greenyellow;
+}
+.error{
+    background-color: red;
+}
+
+.FinishQuiz {
+    width: 500px;
+    padding: 20px;
+    background-color: purple;
+    color: #fff;
+}
+.result_Ans {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.green {
+    color: rgb(112, 185, 3);
+    font-weight: bold;
+}
+.red {
+    color: rgb(255, 58, 58);
+}
+
+.btn {
+    border: 0;
+    background-color: #fff;
+    padding: 10px;    
+}
+.Timer {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 10px 0;
 }
